@@ -6,7 +6,7 @@ It has simple API to  LevelDB like insert key/value, delete key and get key/valu
 It uses default write/read options for simple access.
 
 It is pretty fast since it is built using cython/c++
-It has forward iteration and reverse iteration of keys. During iteration, there are ways to delete Key/Value and modify the Value.
+It has forward iteration and reverse iteration of keys. During iteration, there are ways to delete Key/Value or modify the Value.
 
 ## - Installation
 Currently it is a beta version. it is available from testpypi distribution (only linux package).
