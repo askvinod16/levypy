@@ -25,6 +25,11 @@ db= levypy.DB("t.db")
 db.Put(b'key',b'value')
 db.Put(b'key',b'Modified value')
 ```
+#### Get Key/Value
+```python
+v=db.Get(b'key')
+```
+
 #### Delete Key/Value
 ```python
 db.Del(b'key')
