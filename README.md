@@ -2,14 +2,14 @@
 
 A Simple Python Driver for LevelDB
 
-It has simple API to  LevelDB like insert key/val, delete key and get key/val
+It has simple API to  LevelDB like insert key/value, delete key and get key/value
 It uses default write/read options for simple access.
 
 It is pretty fast since it is built using cython/c++
 It has forward iteration and reverse iteration of keys. During iteration, there are ways to delete Key/Value and modify the Value.
 
 ## - Installation
-Currenlty it is a beta version. it is available from testpypi distribution (only linux package).
+Currently it is a beta version. it is available from testpypi distribution (only linux package).
 ```shell
 pip install -i https://test.pypi.org/simple/ levypy==0.1.0
 ```
