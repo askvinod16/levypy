@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools","Cython>=3.0.0"]
+
+
+
+[project]
+name = "levypy"
+version = "0.1.0"
+authors = [
+ {name = "Vinod Kumar E", email = "askvinod16@gmail.com"}
+ 
+]
+
+
+maintainers = [
+ {name = "Vinod Kumar E", email = "askvinod16@gmail.com"}
+]
+description = "A Simple Python Driver for LevelDB"
+#readme = "README.rst"
+#license = {file = "LICENSE.txt"}
+
